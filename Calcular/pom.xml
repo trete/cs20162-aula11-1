@@ -46,6 +46,13 @@
             <organization>Instituto de Informática (UFG)</organization>
             <organizationUrl>http://www.inf.ufg.br</organizationUrl>
         </developer>
+        <developer>
+            <id>fernandohre</id>
+            <name>Fernando Henrique Quicano Callata</name>
+            <email>fernandohre@hotmail.com</email>
+            <organization>Instituto de Informática (UFG)</organization>
+            <organizationUrl>http://www.inf.ufg.br</organizationUrl>
+        </developer>
     </developers>
 
     <scm>
