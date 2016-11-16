@@ -99,6 +99,23 @@
                     </dependency>
                 </dependencies>
             </plugin>
+            <!-- Copia dependencias para "jars", não incluída no jar.    -->
+            <!-- Ou seja, você deve obter exemplo.jar e o diretório jars -->
+            <!-- para que a aplicação seja executada satisfatoriamente.  -->
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-jar-plugin</artifactId>
+                <version>3.0.2</version>
+                <configuration>
+                    <archive>
+                        <manifest>
+                            <addClasspath>true</addClasspath>
+                            <classpathPrefix>jars/</classpathPrefix>
+                            <mainClass>com.github.fernandohre.calcular.Calcular</mainClass>
+                        </manifest>
+                    </archive>
+                </configuration>
+            </plugin>
         </plugins>
     </build>
 
